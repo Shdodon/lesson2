@@ -9,4 +9,4 @@ Console.Write("Введите число ");
 int number = int.Parse(Console.ReadLine());
 int secondNumber = (number % 100) / 10;
 //secondNumber = secondNumber / 10;
-Console.WriteLine($"Вы ввели {number}, вторая цифра этого числа {secondNumber}");
+Console.WriteLine($"{number} -> {secondNumber}");
